@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #15191A;
+    color: #F2F3F5;
+}
+
+body, input, textarea, button {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/**************************************************************/
+
+ul, ol {
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    /* border-radius: 10px; */
+}
+
+li {
+    line-height: 25px;
+    padding: 5px;
+    border: 1px solid transparent;
+    color: black;
+}
+
+li:hover {
+    border: 1px solid #F2F3F5;
+    color: white;
+}
+
+h2{
+    margin-bottom: 25px;
+}
+
+.playground {
+    border: 2px solid #F2F3F5;
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+ul.firstUl {
+    list-style-type: square;
+    background-color: red;
+    list-style-position: outside;
+}
+
+ul.firstUl li {
+    background-color: rgb(160, 23, 23);
+}
+
+ul.secondUl {
+    list-style-type: circle;
+    background-color: blue;
+    list-style-position: inside;
+}
+
+ul.secondUl li {
+    background-color: rgb(26, 26, 116);
+}
+
+ul.thirdUl {
+    list-style-type: disc;
+    background-color: rgb(196, 146, 11);
+}
+
+ul.fourthUl {
+    list-style-type: none;
+    background-color: rgb(6, 116, 6);
+}
+
+ol.firstOl {
+    list-style-type: upper-alpha;
+    background-color: red;
+    list-style-position: outside;
+}
+
+ol.firstOl li {
+    background-color: rgb(160, 23, 23);
+}
+
+ol.secondOl {
+    list-style-type: lower-alpha;
+    background-color: blue;
+    list-style-position: inside;
+}
+
+ol.secondOl li {
+    background-color: rgb(26, 26, 116);
+}
+
+ol.thirdOl {
+    list-style-type: upper-roman;
+    background-color: rgb(196, 146, 11);
+}
+
+ol.fourthOl {
+    list-style-type: lower-roman;
+    background-color: rgb(6, 116, 6);
+}
