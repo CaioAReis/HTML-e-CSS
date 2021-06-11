@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #F2F3F5;
+    background-color: #15191A;
+}
+
+body, textarea, input, button {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/**************************************************************/
+
+.playground {
+    border: 2px solid #F2F3F5;
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.playground .tabela {
+    width: 100%;
+    margin: 0 auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabela caption {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.tabela th {
+    background-color: #b42c1a;
+    font-weight: bold;
+}
+
+thead th {
+    width: 20%;
+}
+
+thead th:nth-child(1) {
+    width: 8%;
+}
+
+thead th:nth-child(4) {
+    width: 11%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+.tabela tbody tr:nth-child(odd) {
+    background-color: #232829;
+}
+
+.tabela tbody tr:hover {
+    background-color: #3b4041;
+}
+
+table, th, td {
+    border: 1px solid transparent;
+}
+
