@@ -1,0 +1,84 @@
+* {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+}
+
+body {
+  background-image: radial-gradient(#172726, #3e8355, #3d27b5 140%);
+  height: 97vh;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+.container div.first {
+  width: 30em;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #7896fe, #c25dff);
+  color: #fff;
+}
+
+.container div.first h2 {
+  /* font-weight: bold; */
+  padding-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.container div.first h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.container div.first p {
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.container div.second button {
+  width: 300px;
+  padding-block: 10px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.container div.second button:hover {
+  color: black;
+  border: 2px solid black;
+}
+
+.container div.second button.btn1 {
+  background-image: linear-gradient(to right, #fe7c7a, #993a96);
+}
+
+.container div.second button.btn2 {
+  background-image: linear-gradient(to right, #92c6cd, #e88b87);
+}
+
+.container div.second button.btn3 {
+  background-image: linear-gradient(to right, #af5dda, #462ca0);
+}
+
+.container div.second button.btn4 {
+  background-image: linear-gradient(to right, #ff000000, #1f864d);
+}
