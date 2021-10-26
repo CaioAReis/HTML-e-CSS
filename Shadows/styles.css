@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .container-shadow {
+  background-image: linear-gradient(
+    to right,
+    rgb(209, 82, 23),
+    rgb(23, 52, 146)
+  );
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.493);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.container .container-shadow h1 {
+  font-size: 2em;
+  margin-top: 40px;
+  text-shadow: 5px 5px 5px black, 10px 10px 5px rgba(245, 222, 179, 0.61);
+}
+
+.container .container-shadow p {
+  text-shadow: 5px 5px 5px red;
+  line-height: 25px;
+}
