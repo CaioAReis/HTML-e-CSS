@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container section {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-inline: 20px;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  transition: transform 0.5s;
+}
+
+.container .translate {
+  background-color: goldenrod;
+}
+
+.container .translate:hover {
+  transform: translate(0, -40px);
+}
+
+.container .rotate {
+  background-color: blueviolet;
+}
+
+.container .rotate:hover {
+  transform: rotate(90deg);
+}
+
+.container .scale {
+  background-color: brown;
+}
+
+.container .scale:hover {
+  transform: scale(1.5);
+}
+
+.container .skewX {
+  background-color: chocolate;
+}
+
+.container .skewX:hover {
+  transform: skewX(-30deg);
+}
+
+.container .skewY {
+  background-color: crimson;
+}
+
+.container .skewY:hover {
+  transform: skewY(30deg);
+}
+
+.container .matrix {
+  background-color: cornflowerblue;
+}
+
+.container .matrix:hover {
+  transform: matrix(1.5, -0.3, 0, 1.5, 0, 0);
+}
