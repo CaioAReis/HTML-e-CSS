@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+}
+
+:root {
+  --preto: rgb(21, 29, 31);
+  --main: #356fec;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16pt;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--main);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container header {
+  background-color: var(--main);
+  color: var(--preto);
+  height: 100px;
+  padding: 20px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container header h1 {
+  font-size: 20pt;
+  transition: font-size 0.3s, color 0.3s;
+}
+
+.container header h1:hover {
+  font-size: 25pt;
+  color: red;
+}
+
+nav {
+  width: 50%;
+  min-width: 200px;
+}
+
+nav ul li {
+  border-radius: 20px;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li:hover {
+  background-color: var(--preto);
+  color: var(--main);
+}
+
+.container main {
+  max-width: 80%;
+  margin: 50px auto;
+  padding-block: 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container main div.box {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: var(--main);
+  transition: transform 0.5s, background-color 0.5s;
+}
+
+.container main div.box:hover {
+  transform: scale(1.1);
+  background-color: red;
+  z-index: 1;
+}
