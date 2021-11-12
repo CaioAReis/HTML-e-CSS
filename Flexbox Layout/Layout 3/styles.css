@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --branco: #fff;
+  --rosa: #ec1561;
+  --rosa-claro: #f9bad0;
+}
+
+.container {
+  background-color: var(--rosa);
+  /* background-image: linear-gradient(#ec1561, #d315ec); */
+  width: 100%;
+  height: 100%;
+  color: var(--branco);
+}
+
+.container .first-step {
+  width: 90vw;
+  margin: 0 auto;
+  padding-block: 30px;
+}
+
+.container .first-step h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container .first-step .box-icons {
+  margin-top: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .first-step .box-icons > div {
+  width: 49%;
+  min-width: 150px;
+  height: 38vw;
+  margin-bottom: 20px;
+}
+
+.container .first-step .box-icons .first-box {
+  background-color: var(--rosa-claro);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .first-step .box-icons .first-box i {
+  font-size: 6rem;
+  color: var(--rosa);
+}
+
+.container .first-step .box-icons .second-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.container .first-step .box-icons .second-box > div {
+  width: 48%;
+  height: 48%;
+  background-color: var(--rosa-claro);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .first-step .box-icons .second-box > div i {
+  font-size: 3em;
+  color: var(--rosa);
+}
