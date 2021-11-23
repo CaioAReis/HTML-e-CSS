@@ -14,6 +14,8 @@
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 :root {
@@ -31,7 +33,7 @@ body {
 }
 
 .container .first-step {
-  width: 90vw;
+  width: 90%;
   margin: 0 auto;
   padding-block: 30px;
 }
@@ -95,27 +97,54 @@ body {
 }
 
 .container .second-step {
-  width: 90vw;
+  width: 90%;
   margin: 0 auto;
   padding-block: 30px;
 }
 
 .container .second-step .feature-list {
+  width: 100%;
   list-style: none;
   border-radius: 10px;
   background-color: var(--rosa-claro);
   padding: 15px 30px;
 
   display: flex;
+  /* align-items: center; */
+  justify-content: center;
 }
 
 .container .second-step .feature-list li {
   padding: 20px;
   display: flex;
+  width: 33%;
+  min-width: 250px;
 }
 
 .container .second-step .feature-list li:nth-child(even) {
   border-inline: 2px solid white;
+}
+
+.container .second-step .feature-list li:last-child {
+  border-right: 0;
+}
+
+@media (max-width: 950px) {
+  .container .second-step .feature-list {
+    flex-direction: column;
+  }
+
+  .container .second-step .feature-list li {
+    width: 100%;
+  }
+
+  .container .second-step .feature-list li:nth-child(even) {
+    border: 0;
+  }
+
+  .container .second-step .feature-list li:nth-child(even) {
+    border-block: 2px solid white;
+  }
 }
 
 .container .second-step .feature-list li section {
